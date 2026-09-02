@@ -91,13 +91,21 @@ Ela **não** dispara sozinha — é sempre invocação explícita, para não gas
 
 ## Dependências opcionais
 
-O protocolo cita três skills que **não** vêm neste repositório:
+O protocolo cita três componentes que **não** vêm neste repositório:
 
-- `/skill-router` — escolhe a skill certa para a demanda
-- `/smart-router` — escolhe o modelo mais econômico (Haiku / Sonnet / Opus)
-- `karpathy-guidelines` — detalhes e exemplos das 4 diretrizes
+| Componente | Tipo | O que faz | Disponível em |
+|---|---|---|---|
+| `/smart-router` | slash command | escolhe o modelo mais econômico (Haiku / Sonnet / Opus) | [rafaelrabel0/smart-router](https://github.com/rafaelrabel0/smart-router) |
+| `/skill-router` | slash command | escolhe a skill certa para a demanda | não publicado |
+| `karpathy-guidelines` | skill | detalhes e exemplos das 4 diretrizes | não publicado |
 
-Sem elas, a skill continua funcionando: o agente aplica os princípios de roteamento e engenharia por conta própria, apenas sem as heurísticas detalhadas de cada uma. Se quiser o comportamento completo, crie skills com esses nomes ou remova as menções do `SKILL.md`.
+Instalar o `smart-router`: copie `skill/smart-router.md` do repositório para
+`~/.claude/commands/smart-router.md` (ou `.claude/commands/` na raiz do projeto).
+
+**Sem nenhuma delas a skill continua funcionando.** O agente aplica os
+princípios de roteamento e engenharia por conta própria, apenas sem as
+heurísticas detalhadas de cada componente. Se preferir eliminar as menções,
+apague as linhas correspondentes dos passos **1** e **4** do `SKILL.md`.
 
 ---
 
