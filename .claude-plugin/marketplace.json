@@ -1,0 +1,21 @@
+{
+  "name": "rabelo-skills",
+  "owner": {
+    "name": "Rafael Rabelo",
+    "url": "https://github.com/rafaelrabel0"
+  },
+  "metadata": {
+    "description": "Skills de protocolo de sessão para Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "session-init",
+      "source": "./session-init",
+      "description": "Protocolo permanente de sessão: roteamento obrigatório de skill/modelo, regras universais, Diretrizes Karpathy e Registro de Conhecimento no Obsidian.",
+      "version": "1.2.0",
+      "category": "workflow",
+      "keywords": ["session", "protocol", "routing", "obsidian", "knowledge-base"]
+    }
+  ]
+}

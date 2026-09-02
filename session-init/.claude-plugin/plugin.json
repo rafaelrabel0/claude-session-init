@@ -1,0 +1,12 @@
+{
+  "name": "session-init",
+  "description": "Protocolo permanente de sessão para Claude Code: roteamento obrigatório de skill/modelo, regras de comunicação, Diretrizes Karpathy e Registro de Conhecimento persistente.",
+  "version": "1.2.0",
+  "author": {
+    "name": "Rafael Rabelo",
+    "url": "https://github.com/rafaelrabel0"
+  },
+  "homepage": "https://github.com/rafaelrabel0/claude-session-init",
+  "license": "MIT",
+  "keywords": ["session", "protocol", "routing", "obsidian", "knowledge-base"]
+}
