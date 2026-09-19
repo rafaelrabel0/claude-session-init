@@ -12,10 +12,10 @@
     {
       "name": "session-init",
       "source": "./session-init",
-      "description": "Protocolo permanente de sessão: roteamento obrigatório de skill/modelo, regras universais, Diretrizes Karpathy e Registro de Conhecimento no Obsidian.",
-      "version": "1.2.0",
+      "description": "Protocolo permanente de sessão: consulta à base de conhecimento antes de diagnosticar, roteamento em pilha de skills (várias por demanda), regras universais, Diretrizes Karpathy, Processo Mestre e Registro de Conhecimento no Obsidian.",
+      "version": "2.0.0",
       "category": "workflow",
-      "keywords": ["session", "protocol", "routing", "obsidian", "knowledge-base"]
+      "keywords": ["session", "protocol", "routing", "skill-stack", "obsidian", "knowledge-base"]
     }
   ]
 }
